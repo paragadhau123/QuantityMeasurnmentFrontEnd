@@ -1,0 +1,119 @@
+body{
+    background-color:whitesmoke;
+    background-size: 100%;
+}
+.option1 { 
+    display: inline-block; /* show on the same line */ 
+    padding-right: 5px; /* small gap on the right of each header */ 
+    margin-left: 35%;
+  } 
+  .option2 { 
+    display: inline-block; /* show on the same line */ 
+    padding-right: 5px; /* small gap on the right of each header */
+    margin-left: 20%; 
+  } 
+
+h3{
+   
+    margin-top: 3%;
+    border: 2px;
+    border-style: solid;
+    border-color: hsla(89, 43%, 51%, 0.3);
+    background-color: rgb(70, 70, 255);
+    text-align: center;
+    color: white;
+    
+}
+
+h6{
+    margin-top: 3%;
+    margin-left: 28%;
+}
+
+button[type = "volume"]  {  
+    background: url("../Assest/volume2.png") no-repeat;
+    margin-left: 28%;
+   margin-top: 1%;
+    background-color: white;
+    background-size: 25%;
+    width: 10%;
+    height: 19%;
+    background-position: center;
+  text-align: bottom;
+  color: rgb(190, 190, 190);
+}
+
+button[type = "volume"]:hover {
+    background: url("../Assest/volume1.png") no-repeat;
+    background-color: white;
+    width: 10%;
+    height: 19%;
+    background-position: center;
+    background-color: rgb(211, 211, 248);
+    border-radius: 10;
+    border-color: blue;
+    
+}
+
+
+button[type = "temperature"]  {  
+    background: url("../Assest/temp2.png") no-repeat;
+    margin-left: 5%;
+   margin-top: 1%;
+    background-color: white;
+    background-size: 25%;
+    width: 10%;
+    height: 19%;
+    background-position: center;
+  text-align: bottom;
+  color: rgb(190, 190, 190);
+}
+
+button[type = "temperature"]:hover {
+    background: url("../Assest/temperature1.png") no-repeat;
+    background-color: white;
+    width: 10%;
+    height: 19%;
+    background-position: center;
+    background-color: rgb(255, 225, 225);
+    border-radius: 10;
+    border-color: red;
+    color: red;
+    
+}
+
+button[type = "length"]  {  
+    background: url("../Assest/length2.png") no-repeat;
+    margin-left: 5%;
+   margin-top: 1%;
+    background-color: white;
+    width: 10%;
+    height: 19%;
+    background-position: center;
+  text-align: bottom;
+  color: rgb(190, 190, 190);
+}
+
+button[type = "length"]:hover {
+    background: url("../Assest/length1.png") no-repeat;
+    background-color: white;
+    width: 10%;
+    height: 19%;
+    background-position: center;
+    background-color: rgb(221, 255, 231);
+    border-radius: 10;
+    border-color: rgb(63, 250, 63);
+    color: yellowgreen;
+    size: 10%;
+       
+}
+.Unit1 { 
+    display: inline-block; /* show on the same line */ 
+    padding-right: 5px; /* small gap on the right of each header */ 
+    margin-left: 30%;
+  } 
+  .Unit2 { 
+    display: inline-block; /* show on the same line */ 
+    padding-right: 5px; /* small gap on the right of each header */
+    margin-left: 12%; 
+  } 
