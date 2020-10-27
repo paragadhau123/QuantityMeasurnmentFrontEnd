@@ -1,0 +1,21 @@
+{
+    "Length":[
+        "Kilometre",
+        "Metres",
+        "Centimetres",
+        "Milimetres",
+        "Micrometres",
+        "Mile",
+        "Foot"
+    ],
+    "Temperature":[
+        "Celsius",
+        "Fahrenheit",
+        "Kelvin"
+    ],
+    "Volume":[
+        "Litres",
+        "Mililitres",
+        "Gallons"
+    ]
+}
