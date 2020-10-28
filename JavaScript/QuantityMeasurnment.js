@@ -31,17 +31,21 @@ function populateSelect(Value) {
 }
 
 function Method(Unit) {
+    var emp = "";
     var ele = document.getElementById('sel1');
     for (var i = 0; i < Unit.length; i++) {
 
-        ele.innerHTML = ele.innerHTML +
-            '<option value="">' + Unit[i]['Unit_Name'] + '</option>';
+        emp +=   ele.innerHTML = ele.innerHTML +
+          '<option value="">' + Unit[i]['Unit_Name'] + '</option>';
     }
     var ele = document.getElementById('sel2');
     for (var i = 0; i < Unit.length; i++) {
 
-        ele.innerHTML = ele.innerHTML +
+        emp +=   ele.innerHTML = ele.innerHTML +
             '<option value="">' + Unit[i]['Unit_Name'] + '</option>';
     }
 }
 
+window.onload=function(){
+    document.getElementById("model").click();
+  };

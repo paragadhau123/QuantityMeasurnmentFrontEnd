@@ -1,27 +1,30 @@
 <html>
 
 <head>
-  <script src="http://code.jquery.com/jquery-3.5.1.js"></script>
-  <script type="text/javascript" src="../JavaScript/QuantityMeasurnment.js"></script>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="../CSS/QuantityMeasurnment.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../CSS/demo.css">
+    <script type="text/javascript" src="../JavaScript/QuantityMeasurnment.js"></script>
 </head>
 <title>quantity mesurement UI</title>
 <h3>Welcome to Quantity Mesurement</h3>
-<h6>CHOOSE TYPE</h6>
-<button type="volume" class="btn btn-link" onclick="populateSelect('Volume')"><br /><br> <br>Volume</button>
-<button type="temperature" class="btn btn-link" onclick="populateSelect()"><br /><br> <br>Temperature</button>
-<button type="length" class="btn btn-link" onclick="populateSelect('Length')"><br /><br> <br>Length</button><br><br>
+<h6 class="header6">CHOOSE TYPE</h6>
+<div class="container">
+    <p><button type="volume" id="model" class="btn unitContainer volume" onclick="populateSelect('Volume')"><br /><br>
+            <br>Volume</button></p>
+    <p><button type="temperature" class="btn unitContainer temperature "
+            onclick="populateSelect('Temperature')"><br /><br> <br>Temperature</button></p>
+    <button type="length" class="btn unitContainer length" onclick="populateSelect('Length')"><br /><br>
+        <br>Length</button><br><br>
+
+</div>
 <h6 class="option1">From</h6>
 <h6 class="option2">To</h6>
-</br>
-<select id="sel1" class="Unit1">
-  <option value="">-- Select --</option>
+<br>
+<select name="Unit" id="sel1" class="Unit1">
 </select>
-<select id="sel2" class="Unit2">
-  <option value="">-- Select --</option>
+<select name="Unit" id="sel2" class="Unit2">
 </select>
-</br>
 
 </html>
