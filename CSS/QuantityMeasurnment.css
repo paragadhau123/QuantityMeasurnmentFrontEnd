@@ -5,12 +5,12 @@ body{
 .option1 { 
     display: inline-block; /* show on the same line */ 
     padding-right: 5px; /* small gap on the right of each header */ 
-    margin-left: 35%;
+    margin-left: 450px;
   } 
   .option2 { 
     display: inline-block; /* show on the same line */ 
     padding-right: 5px; /* small gap on the right of each header */
-    margin-left: 20%; 
+    margin-left: 260px;
   } 
 
 h3{
@@ -110,10 +110,13 @@ button[type = "length"]:hover {
 .Unit1 { 
     display: inline-block; /* show on the same line */ 
     padding-right: 5px; /* small gap on the right of each header */ 
-    margin-left: 30%;
+    margin-left: 390px;
+    width: 200px;
   } 
   .Unit2 { 
     display: inline-block; /* show on the same line */ 
     padding-right: 5px; /* small gap on the right of each header */
-    margin-left: 12%; 
+    margin-left: 150px; 
+    width: 200px;
   } 
+  

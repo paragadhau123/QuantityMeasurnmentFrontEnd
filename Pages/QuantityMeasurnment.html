@@ -1,40 +1,27 @@
 <html>
 
 <head>
-   
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="../CSS/QuantityMeasurnment.css">
+  <script src="http://code.jquery.com/jquery-3.5.1.js"></script>
+  <script type="text/javascript" src="../JavaScript/Demo.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="../CSS/QuantityMeasurnment.css">
 </head>
 <title>quantity mesurement UI</title>
 <h3>Welcome to Quantity Mesurement</h3>
 <h6>CHOOSE TYPE</h6>
-
-
-<button type="volume"  class="btn btn-link"><br/><br> <br>Volume</button>
-<button type="temperature"  class="btn btn-link"><br/><br> <br>Temperature</button>
-<button type="length"  class="btn btn-link"><br/><br> <br>Length</button><br><br>
-
-  <h6 class="option1">From</h6> 
-  <h6 class="option2">To</h6> 
+<button type="volume" class="btn btn-link" onclick="populateSelect('Volume')"><br /><br> <br>Volume</button>
+<button type="temperature" class="btn btn-link" onclick="populateSelect()"><br /><br> <br>Temperature</button>
+<button type="length" class="btn btn-link" onclick="populateSelect('Length')"><br /><br> <br>Length</button><br><br>
+<h6 class="option1">From</h6>
+<h6 class="option2">To</h6>
+</br>
+<select id="sel1" class="Unit1">
+  <option value="">-- Select --</option>
+</select>
+<select id="sel2" class="Unit2">
+  <option value="">-- Select --</option>
+</select>
 </br>
 
-
-  <select name="Unit" class="Unit1" id="Unit">
-    <option value="Kilometre">Kilometre</option>
-    <option value="Metre">Metre</option>
-    <option value="Centimetre">Centimetre</option>
-    <option value="Milimetre">Milimetre</option>
-    <option value="Micrometre">Micrometre</option>
-    <option value="Mile">Mile</option>
-  </select>
-
-
-  <select name="Unit" class="Unit2" id="Unit">
-    <option value="Kilometre">Kilometre</option>
-    <option value="Metre">Metre</option>
-    <option value="Centimetre">Centimetre</option>
-    <option value="Milimetre">Milimetre</option>
-    <option value="Micrometre">Micrometre</option>
-    <option value="Mile">Mile</option>
-  </select>
 </html>
