@@ -32,20 +32,18 @@ function populateSelect(Value) {
 
 function Method(Unit) {
     var emp = "";
-    var ele = document.getElementById('sel1');
     for (var i = 0; i < Unit.length; i++) {
 
-        emp +=   ele.innerHTML = ele.innerHTML +
-          '<option value="">' + Unit[i]['Unit_Name'] + '</option>';
+        emp += '<option value="">' + Unit[i]['Unit_Name'] + '</option>';
     }
-    var ele = document.getElementById('sel2');
+    document.getElementById('sel1').innerHTML = emp;
+    var emp2 = "";
     for (var i = 0; i < Unit.length; i++) {
-
-        emp +=   ele.innerHTML = ele.innerHTML +
-            '<option value="">' + Unit[i]['Unit_Name'] + '</option>';
+        emp2 += '<option value="">' + Unit[i]['Unit_Name'] + '</option>';
     }
+    document.getElementById('sel2').innerHTML = emp2
 }
 
-window.onload=function(){
+window.onload = function () {
     document.getElementById("model").click();
-  };
+};
