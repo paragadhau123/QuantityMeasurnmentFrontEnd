@@ -1,168 +1,192 @@
-body {
-    background-color: whitesmoke;
-}
-
-.unitContainer {
-    width: 173px;
-    height: 137px;
-    align-items: center;
-    color: rgb(218, 216, 216);
-}
-
-.unitContainer:hover {
-    width: 173px;
-    height: 137px;
-    align-items: center;
-    background-position: center;
-}
-
-.unitContainer:focus {
-    width: 173px;
-    height: 137px;
-    align-items: center;
-    background-position: center;
-}
-
-.temperature {
-    border: 1px white;
-    background: url("../Assest/temp2.png") no-repeat;
-    background-position: center;
-    background-color: white;
-}
-
-.temperature:hover {
-    border: 1px solid red;
-    background: url("../Assest/temperature1.png") no-repeat;
-    background-color: rgb(245, 173, 173);
-    background-position: center;
-    color: red;
-}
-
-.temperature:focus {
-    border: 1px solid red;
-    background: url("../Assest/temperature1.png") no-repeat;
-    background-color: rgb(245, 173, 173);
-    background-position: center;
-    color: red;
-}
-
-.volume {
-    border: 1px white;
-    background: url("../Assest/volume2.png") no-repeat;
-    background-position: center;
-    background-color: white;
-}
-
-.volume:hover {
-    border: 1px solid rgb(9, 9, 255);
-    background: url("../Assest/volume1.png") no-repeat;
-    background-color: rgb(201, 154, 255);
-    background-position: center;
-    color: blue;
-}
-
-.volume:focus {
-    border: 1px solid rgb(9, 9, 255);
-    background: url("../Assest/volume1.png") no-repeat;
-    background-color: rgb(201, 154, 255);
-    background-position: center;
-    color: blue;
-}
-
-.length {
-    border: 1px white;
-    background: url("../Assest/length2.png") no-repeat;
-    background-position: center;
-    background-color: white;
-}
-
-.length:hover {
-    border: 1px solid rgb(56, 252, 56);
-    background: url("../Assest/length1.png") no-repeat;
-    background-color: rgb(173, 245, 201);
-    background-position: center;
-    color: green;
-}
-
-.length:focus {
-    border: 1px solid rgb(56, 252, 56);
-    background: url("../Assest/length1.png") no-repeat;
-    background-color: rgb(173, 245, 201);
-    background-position: center;
-    color: green;
-}
-
-.option1 {
-    display: inline-block;
-    /* show on the same line */
-    padding-right: 5px;
-    /* small gap on the right of each header */
-    margin-left: 30%;
-}
-
-.option2 {
-    display: inline-block;
-    /* show on the same line */
-    padding-right: 5px;
-    /* small gap on the right of each header */
-    margin-left: 210px;
-}
-
-.Unit1 {
-    display: inline-block;
-    /* show on the same line */
-    padding-right: 5px;
-    /* small gap on the right of each header */
-    margin-left: 30%;
-    width: 150px;
-}
-
-.Unit2 {
-    display: inline-block;
-    /* show on the same line */
-    padding-right: 5px;
-    /* small gap on the right of each header */
-    margin-left: 7.5%;
-    width: 150px;
-}
-
-h3 {
-    /* margin-top: 3%; */
-    /* border: 8px; */
-    border-style: solid;
-    border-color: hsla(89, 43%, 51%, 0.3);
-    background-color: rgb(70, 70, 255);
-    text-align: center;
-    color: white;
-}
-
-.header6 {
-    margin-top: 22px;
-    margin-left: 355px;
-}
-
-.heading1 {
-    display: inline-block;
-    /* show on the same line */
-    padding-right: 5px;
-    /* small gap on the right of each header */
-    margin-left: 250px;
-}
-
-.heading2 {
-    display: inline-block;
-    /* show on the same line */
-    padding-right: 5px;
-    /* small gap on the right of each header */
-    margin-left: 650px;
-}
-
-.container {
-    border: 1px white;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    background-position: center;
-    width: 760px;
-}
+        body {
+            background-color: whitesmoke;
+        }
+        
+        .unitContainer {
+            width: 173px;
+            height: 137px;
+            align-items: center;
+            color: rgb(218, 216, 216);
+        }
+        
+        .unitContainer:hover {
+            width: 173px;
+            height: 137px;
+            align-items: center;
+            background-position: center;
+        }
+        
+        .unitContainer:focus {
+            width: 173px;
+            height: 137px;
+            align-items: center;
+            background-position: center;
+        }
+        
+        .temperature {
+            border: 1px white;
+            background: url("../Assest/temp2.png") no-repeat;
+            background-position: center;
+            background-color: white;
+        }
+        
+        .temperature:hover {
+            border: 1px solid red;
+            background: url("../Assest/temperature1.png") no-repeat;
+            background-color: rgb(245, 173, 173);
+            background-position: center;
+            color: red;
+        }
+        
+        .temperature:focus {
+            border: 1px solid red;
+            background: url("../Assest/temperature1.png") no-repeat;
+            background-color: rgb(245, 173, 173);
+            background-position: center;
+            color: red;
+        }
+        
+        .volume {
+            border: 1px white;
+            background: url("../Assest/volume2.png") no-repeat;
+            background-position: center;
+            background-color: white;
+        }
+        
+        .volume:hover {
+            border: 1px solid rgb(9, 9, 255);
+            background: url("../Assest/volume1.png") no-repeat center;
+            background-color: rgb(201, 154, 255);
+            background-position: center;
+            color: blue;
+        }
+        
+        .volume:focus {
+            border: 1px solid rgb(9, 9, 255);
+            background: url("../Assest/volume1.png") no-repeat;
+            background-color: rgb(201, 154, 255);
+            background-position: center;
+            color: blue;
+        }
+        
+        .length {
+            border: 1px white;
+            background: url("../Assest/length2.png") no-repeat;
+            background-position: center;
+            background-color: white;
+        }
+        
+        .length:hover {
+            border: 1px solid rgb(56, 252, 56);
+            background: url("../Assest/length1.png") no-repeat;
+            background-color: rgb(173, 245, 201);
+            background-position: center;
+            color: green;
+        }
+        
+        .length:focus {
+            border: 1px solid rgb(56, 252, 56);
+            background: url("../Assest/length1.png") no-repeat;
+            background-color: rgb(173, 245, 201);
+            background-position: center;
+            color: green;
+        }
+        
+        .option1 {
+            display: inline-block;
+            /* show on the same line */
+            padding-right: 5px;
+            /* small gap on the right of each header */
+            margin-left: 360px;
+        }
+        
+        .option2 {
+            display: inline-block;
+            /* show on the same line */
+            padding-right: 5px;
+            /* small gap on the right of each header */
+            margin-left: 324px;
+        }
+        
+        .Unit1 {
+            display: inline-block;
+            /* show on the same line */
+            padding-right: 5px;
+            /* small gap on the right of each header */
+            margin-left: 360px;
+            width: 250px;
+        }
+        
+        .Unit2 {
+            display: inline-block;
+            /* show on the same line */
+            padding-right: 5px;
+            /* small gap on the right of each header */
+            margin-left: 120px;
+            width: 250px;
+        }
+        
+        h3 {
+            /* margin-top: 3%; */
+            /* border: 8px; */
+            border-style: solid;
+            border-color: hsla(89, 43%, 51%, 0.3);
+            background-color: rgb(70, 70, 255);
+            text-align: center;
+            color: white;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        
+        .header6 {
+            margin-top: 22px;
+            margin-left: 355px;
+        }
+        
+        .heading1 {
+            display: inline-block;
+            /* show on the same line */
+            padding-right: 5px;
+            /* small gap on the right of each header */
+            margin-left: 250px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        
+        .heading2 {
+            display: inline-block;
+            /* show on the same line */
+            padding-right: 5px;
+            /* small gap on the right of each header */
+            margin-left: 650px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        
+        .container {
+            border: 1px white;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            background-position: center;
+            width: 760px;
+        }
+        
+        .input1 {
+            display: inline-block;
+            /* show on the same line */
+            padding-right: 5px;
+            /* small gap on the right of each header */
+            margin-left: 360px;
+            width: 250px;
+        }
+        
+        .input2 {
+            display: inline-block;
+            /* show on the same line */
+            padding-right: 5px;
+            /* small gap on the right of each header */
+            margin-left: 120px;
+            width: 250px;
+        }

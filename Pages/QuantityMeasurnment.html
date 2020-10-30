@@ -4,50 +4,59 @@
     <script src="http://code.jquery.com/jquery-3.5.1.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="../CSS/QuantityMeasurnment.css">
-    <script type="text/javascript" src="../JavaScript/QuantityMeasurnment.js"></script>
-    <script type="text/javascript" src="../JavaScript/demo.js"></script>
-</head>
-<title>Quantity Mesurement UI</title>
-<h2 class="heading1" style="font-size:20px;">Quanment</h2>
-<h2 class="heading2" style="font-size:15px;">History</h2>
 
-<!-- <h2 class="heading2" style="font-size:10px;">History</h2> -->
-<h3>Welcome to Quantity Mesurement</h3>
-<h6 class="header6">CHOOSE TYPE</h6>
-<div class="container">
-    <p><button type="volume" id="model" class="btn unitContainer volume" onclick="populateSelect('Volume');"><br /><br>
+    <title>Quantity Mesurement UI</title>
+</head>
+
+<body>
+    <div class="main">
+        <h2 class="heading1" style="font-size:20px;">Quanment</h2>
+        <h2 class="heading2" style="font-size:15px;">History</h2>
+
+        <h3>Welcome to Quantity Mesurement</h3>
+        <h6 class="header6">CHOOSE TYPE</h6>
+        <div class="container">
+            <p><button type="volume" id="model" class="btn unitContainer volume test" onclick="populateSelect('Volume');"><br /><br>
             <br>Volume</button></p>
-    <p><button type="temperature" class="btn unitContainer temperature" onclick="populateSelect('Temperature')"><br /><br> <br>Temperature</button></p>
-    <button type="length" class="btn unitContainer length" onclick="populateSelect('Length')"><br /><br>
+            <p><button type="temperature" class="btn unitContainer temperature" onclick="populateSelect('Temperature')"><br /><br> <br>Temperature</button></p>
+            <button type="length" class="btn unitContainer length " onclick="populateSelect('Length')"><br /><br>
         <br>Length</button><br><br>
 
-</div>
+        </div>
 
-<h6 class="option1">From</h6>
-<h6 class="option2">To</h6>
-<br>
-<select name="Unit" id="sel1" class="Unit1">
-</select>
-<select name="Unit" id="sel2" class="Unit2">
+        <h6 class="option1">From</h6>
+        <h6 class="option2">To</h6>
+
+        <div>
+            <input type="text" value="1" class="input1"></input>
+            <input type="text" value="100" class="input2"></input>
+        </div>
+
+        <select name="Unit" id="sel1" class="Unit1 ">
+    </select>
+        <select name="Unit" id="sel2" class="Unit2 ">
 </select>
 
-<!-- <script>
-    $(function() {
-        $('.unitContainer').click(function() {
-            $('.unitContainer').removeClass('active');
-            var el = $(this);
-            el.addClass('active');
-        })
-    })
-</script>
-<style>
-    .active {
-        border: 1px solid red;
-        background: url("../Assest/temperature1.png") no-repeat;
-        background-color: rgb(245, 173, 173);
-        background-position: center;
-        color: red;
-    }
-</style> -->
+        <!-- <script>
+            $(function() {
+                $('.unitContainer').click(function() {
+                    $('.unitContainer').removeClass('active');
+                    var el = $(this);
+                    el.addClass('active');
+                })
+            })
+        </script> -->
+        <!-- <style>
+            .active {
+                border: 1px solid red;
+                background: url("../Assest/temperature1.png ") no-repeat center;
+                background-color: rgb(245, 173, 173);
+                background-position: center;
+                color: red;
+            }
+        </style> -->
+        <script type="text/javascript" src="../JavaScript/QuantityMeasurnment.js"></script>
+    </div>>
+</body>
 
 </html>
