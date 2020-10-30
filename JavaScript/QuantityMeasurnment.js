@@ -20,19 +20,40 @@ let Temperature = [
 
 populateSelect = (Value) => {
     if (Value == "Length") {
-        Method(Length);
+        method(Length);
+        $(function() {
+            $('.length').click(function() {
+                $('.length').removeClass('len');
+                var el = $(this);
+                el.addClass('len');
+            })
+        })
     } else if (Value == "Volume") {
-        Method(Volume);
+        method(Volume);
+        $(function() {
+            $('.volume').click(function() {
+                $('.volume').removeClass('vol');
+                var el = $(this);
+                el.addClass('vol');
+            })
+        })
     } else {
-        Method(Temperature);
+        method(Temperature);
+        $(function() {
+            $('.temperature').click(function() {
+                $('.temperature').removeClass('temp');
+                var el = $(this);
+                el.addClass('temp');
+            })
+        })
     }
 }
 
-Method = (Unit) => {
+method = (unit) => {
     let emp = "";
-    for (let i = 0; i < Unit.length; i++) {
+    for (let i = 0; i < unit.length; i++) {
 
-        emp += '<option value="">' + Unit[i]['Unit_Name'] + '</option>';
+        emp += '<option value="">' + unit[i]['Unit_Name'] + '</option>';
     }
     document.getElementById('sel1').innerHTML = emp;
     document.getElementById('sel2').innerHTML = emp;

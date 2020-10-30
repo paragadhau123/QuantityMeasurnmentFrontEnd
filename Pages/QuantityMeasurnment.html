@@ -24,37 +24,19 @@
 
         </div>
 
-        <h6 class="option1">From</h6>
-        <h6 class="option2">To</h6>
+        <h6 class="option1" style="font-weight:lighter;">From</h6>
+        <h6 class="option2" style="font-weight:lighter;">To</h6>
 
         <div>
-            <input type="text" value="1" class="input1"></input>
-            <input type="text" value="100" class="input2"></input>
+            <input type="text" value="1" style="font-weight: bold;" class="input1"></input>
+            <input type="text" value="100" style="font-weight: bold;" class="input2"></input>
         </div>
 
-        <select name="Unit" id="sel1" class="input1">
+        <select name="Unit" id="sel1" class="dropdown1">
     </select>
-        <select name="Unit" id="sel2" class="input2">
+        <select name="Unit" id="sel2" class="dropdown2">
 </select>
 
-        <script>
-            $(function() {
-                $('.unitContainer').click(function() {
-                    $('.unitContainer').removeClass('active');
-                    var el = $(this);
-                    el.addClass('active');
-                })
-            })
-        </script>
-        <style>
-            .active {
-                border: 1px solid red;
-                background: url("../Assest/temperature1.png ") no-repeat !important;
-                background-color: rgb(245, 173, 173) !important;
-                background-position: center !important;
-                color: red !important;
-            }
-        </style>
         <script type="text/javascript" src="../JavaScript/QuantityMeasurnment.js"></script>
     </div>
 </body>

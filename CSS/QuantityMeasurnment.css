@@ -160,6 +160,17 @@
                                 /* small gap on the right of each header */
                                 margin-left: 360px;
                                 width: 250px;
+                                height: 45px;
+                            }
+                            
+                            .dropdown1 {
+                                display: inline-block;
+                                /* show on the same line */
+                                padding-right: 5px;
+                                /* small gap on the right of each header */
+                                margin-left: 360px;
+                                width: 250px;
+                                height: 30px;
                             }
                             
                             .input2 {
@@ -169,6 +180,41 @@
                                 /* small gap on the right of each header */
                                 margin-left: 120px;
                                 width: 250px;
+                                height: 45px;
+                            }
+                            
+                            .dropdown2 {
+                                display: inline-block;
+                                /* show on the same line */
+                                padding-right: 5px;
+                                /* small gap on the right of each header */
+                                margin-left: 120px;
+                                width: 250px;
+                                height: 30px;
+                            }
+                            
+                            .len {
+                                border: 1px solid rgb(56, 252, 56);
+                                background: url("../Assest/length1.png") no-repeat !important;
+                                background-color: rgb(173, 245, 201) !important;
+                                background-position: center !important;
+                                color: green !important;
+                            }
+                            
+                            .vol {
+                                border: 1px solid rgb(9, 9, 255);
+                                background: url("../Assest/volume1.png") no-repeat !important;
+                                background-color: rgb(201, 154, 255) !important;
+                                background-position: center !important;
+                                color: blue !important;
+                            }
+                            
+                            .temp {
+                                border: 1px solid red;
+                                background: url("../Assest/temperature1.png ") no-repeat !important;
+                                background-color: rgb(245, 173, 173) !important;
+                                background-position: center !important;
+                                color: red !important;
                             }
                             
                             @media only screen and (max-width: 600px) {
