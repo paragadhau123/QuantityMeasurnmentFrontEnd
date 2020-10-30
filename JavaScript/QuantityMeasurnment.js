@@ -35,11 +35,7 @@ Method = (Unit) => {
         emp += '<option value="">' + Unit[i]['Unit_Name'] + '</option>';
     }
     document.getElementById('sel1').innerHTML = emp;
-    let emp2 = "";
-    for (let i = 0; i < Unit.length; i++) {
-        emp2 += '<option value="">' + Unit[i]['Unit_Name'] + '</option>';
-    }
-    document.getElementById('sel2').innerHTML = emp2
+    document.getElementById('sel2').innerHTML = emp;
 }
 
 window.onload = function() {

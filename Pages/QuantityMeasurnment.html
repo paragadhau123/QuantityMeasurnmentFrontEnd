@@ -4,7 +4,7 @@
     <script src="http://code.jquery.com/jquery-3.5.1.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="../CSS/QuantityMeasurnment.css">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quantity Mesurement UI</title>
 </head>
 
@@ -15,10 +15,10 @@
 
         <h3>Welcome to Quantity Mesurement</h3>
         <h6 class="header6">CHOOSE TYPE</h6>
-        <div class="container">
-            <p><button type="volume" id="model" class="btn unitContainer volume test" onclick="populateSelect('Volume');"><br /><br>
+        <div class="container test">
+            <p><button type="volume" id="model" class="btn unitContainer volume " onclick="populateSelect('Volume');"><br /><br>
             <br>Volume</button></p>
-            <p><button type="temperature" class="btn unitContainer temperature" onclick="populateSelect('Temperature')"><br /><br> <br>Temperature</button></p>
+            <p><button type="temperature" class="btn unitContainer temperature " onclick="populateSelect('Temperature')"><br /><br> <br>Temperature</button></p>
             <button type="length" class="btn unitContainer length " onclick="populateSelect('Length')"><br /><br>
         <br>Length</button><br><br>
 
@@ -32,12 +32,12 @@
             <input type="text" value="100" class="input2"></input>
         </div>
 
-        <select name="Unit" id="sel1" class="Unit1 ">
+        <select name="Unit" id="sel1" class="input1">
     </select>
-        <select name="Unit" id="sel2" class="Unit2 ">
+        <select name="Unit" id="sel2" class="input2">
 </select>
 
-        <!-- <script>
+        <script>
             $(function() {
                 $('.unitContainer').click(function() {
                     $('.unitContainer').removeClass('active');
@@ -45,18 +45,18 @@
                     el.addClass('active');
                 })
             })
-        </script> -->
-        <!-- <style>
+        </script>
+        <style>
             .active {
                 border: 1px solid red;
-                background: url("../Assest/temperature1.png ") no-repeat center;
-                background-color: rgb(245, 173, 173);
-                background-position: center;
-                color: red;
+                background: url("../Assest/temperature1.png ") no-repeat !important;
+                background-color: rgb(245, 173, 173) !important;
+                background-position: center !important;
+                color: red !important;
             }
-        </style> -->
+        </style>
         <script type="text/javascript" src="../JavaScript/QuantityMeasurnment.js"></script>
-    </div>>
+    </div>
 </body>
 
 </html>
