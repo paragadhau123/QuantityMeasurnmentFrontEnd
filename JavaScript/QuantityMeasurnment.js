@@ -18,32 +18,30 @@ let Temperature = [
     { "Unit_Name": "Kelvin" },
 ];
 
-function populateSelect(Value) {
+populateSelect = (Value) => {
     if (Value == "Length") {
         Method(Length);
-    }
-    else if (Value == "Volume") {
+    } else if (Value == "Volume") {
         Method(Volume);
-    }
-    else {
+    } else {
         Method(Temperature);
     }
 }
 
-function Method(Unit) {
-    var emp = "";
-    for (var i = 0; i < Unit.length; i++) {
+Method = (Unit) => {
+    let emp = "";
+    for (let i = 0; i < Unit.length; i++) {
 
         emp += '<option value="">' + Unit[i]['Unit_Name'] + '</option>';
     }
     document.getElementById('sel1').innerHTML = emp;
-    var emp2 = "";
-    for (var i = 0; i < Unit.length; i++) {
+    let emp2 = "";
+    for (let i = 0; i < Unit.length; i++) {
         emp2 += '<option value="">' + Unit[i]['Unit_Name'] + '</option>';
     }
     document.getElementById('sel2').innerHTML = emp2
 }
 
-window.onload = function () {
+window.onload = function() {
     document.getElementById("model").click();
 };
