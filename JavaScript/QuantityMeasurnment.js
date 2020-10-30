@@ -18,33 +18,28 @@ let Temperature = [
     { "Unit_Name": "Kelvin" },
 ];
 
-populateSelect = (Value) => {
-    if (Value == "Length") {
+populateSelect = (value) => {
+    if (value == "Length") {
         method(Length);
-        $(function() {
-            $('.length').click(function() {
-                $('.length').removeClass('len');
-                var el = $(this);
-                el.addClass('len');
-            })
+        $('.length').click(function() {
+            $('.length').removeClass('len');
+            var el = $(this);
+            el.addClass('len');
         })
-    } else if (Value == "Volume") {
+
+    } else if (value == "Volume") {
         method(Volume);
-        $(function() {
-            $('.volume').click(function() {
-                $('.volume').removeClass('vol');
-                var el = $(this);
-                el.addClass('vol');
-            })
+        $('.volume').click(function() {
+            $('.volume').removeClass('vol');
+            var el = $(this);
+            el.addClass('vol');
         })
     } else {
         method(Temperature);
-        $(function() {
-            $('.temperature').click(function() {
-                $('.temperature').removeClass('temp');
-                var el = $(this);
-                el.addClass('temp');
-            })
+        $('.temperature').click(function() {
+            $('.temperature').removeClass('temp');
+            var el = $(this);
+            el.addClass('temp');
         })
     }
 }
